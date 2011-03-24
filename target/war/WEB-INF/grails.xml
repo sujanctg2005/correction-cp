@@ -1,0 +1,15 @@
+<grails>
+  <resources>
+    <resource>BootStrap</resource>
+    <resource>BuildConfig</resource>
+    <resource>Config</resource>
+    <resource>DataSource</resource>
+    <resource>resources</resource>
+    <resource>UrlMappings</resource>
+    <resource>correction.CorrectionController</resource>
+    <resource>correction.Correction</resource>
+  </resources>
+  <plugins>
+    <plugin>HibernateGrailsPlugin</plugin>
+  </plugins>
+</grails>

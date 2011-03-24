@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ecrhcf:ClaimRemittance xmlns:ecrhcf="http://xml.edifecs.com/schema/ECRHCF" xmlns:ucf="http://xml.edifecs.com/schema/UCF" xmlns:ucfd="http://xml.edifecs.com/schema/UCFD" xmlns:hcfd="http://xml.edifecs.com/schema/HCFD">
+  <ucf:Property name="TestProperty1" valueType="AMOUNT" value="2345"/>
+  <ucf:Property name="TestProperty2" valueType="AMOUNT" value="2342342"/>
+  <ucf:Property name="TestProperty3" valueType="AMOUNT" value="23546445"/>
+  <ucf:Property name="TestProperty4" valueType="AMOUNT" value="2345232"/>
+  <ucf:LifecycleUpdateInfo errorRef="1 2">
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="1"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="2"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="3"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="4"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="5"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="6"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="7"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="8"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="9"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="10"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="11"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="12"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="13"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 1"/>
+    </ucf:RelatedError>
+    <ucf:RelatedError>
+      <ucf:ErrorRefID value="14"/>
+      <ucf:Severity value="Crititcal"/>
+      <ucf:Message value="This is Just a Test Error 2"/>
+    </ucf:RelatedError>
+  </ucf:LifecycleUpdateInfo>
+  <ecrhcf:Packaging errorRef="3 4">
+    <ucfd:Name value="SYS1_REMIT_20101107.dat"/>
+    <ucfd:Source value="ESB"/>
+    <ucfd:Mode value="BATCH"/>
+    <ucfd:Environment value="PROD"/>
+    <ucfd:Direction value="OUTBOUND"/>
+    <ucfd:MessageProtocolInfo>
+      <ucfd:Name value="REMIT"/>
+      <ucfd:ControlNumber value="100000001"/>
+      <ucfd:Protocol value="HLP_REMIT"/>
+      <ucfd:Date value="2007-11-07"/>
+      <ucfd:Time value="10:05:00"/>
+      <ucfd:Sender>
+        <ucf:Qualifier value=""/>
+        <ucf:Identifier value="SYS1"/>
+      </ucfd:Sender>
+    </ucfd:MessageProtocolInfo>
+  </ecrhcf:Packaging>
+  <ecrhcf:PayerInfo errorRef="5 6">
+    <ucfd:PersonIndicator value="2"/>
+    <ucfd:Name value="HEALTHYLIFEPLAN"/>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="4239 Amber St"/>
+      <ucfd:AddressLine2 value="PO BOX 2348"/>
+      <ucfd:City value="SEATTLE"/>
+      <ucfd:State value="WA"/>
+      <ucfd:PostalCode value="98020"/>
+    </ucfd:AddressInfo>
+  </ecrhcf:PayerInfo>
+  <ecrhcf:PayeeInfo errorRef="7 8">
+    <ucfd:PersonIndicator value="2"/>
+    <ucfd:Name value="GREATPLAINGROUP"/>
+    <ucfd:PrimaryIdentifier>
+      <ucf:Qualifier value="XX"/>
+      <ucf:Identifier value="1266032774"/>
+    </ucfd:PrimaryIdentifier>
+    <ucfd:AddressInfo>
+      <ucfd:AddressLine1 value="1223 OAK ST"/>
+      <ucfd:AddressLine2 value="PO  B0X 4564"/>
+      <ucfd:City value="Seattle"/>
+      <ucfd:State value="WA"/>
+      <ucfd:PostalCode value="98005"/>
+      <ucfd:Country value="US"/>
+    </ucfd:AddressInfo>
+    <hcfd:NPI value="1266032774"/>
+  </ecrhcf:PayeeInfo>
+  <ecrhcf:HandlingCode value="H"/>
+  <ecrhcf:TotalPaymentAmount value="4000"/>
+  <ecrhcf:CreditDebitFlag value="C"/>
+  <ecrhcf:PaymentMethod value="CHK"/>
+  <ecrhcf:PayerAccountInfo errorRef="9 10">
+    <ucfd:DFI value="01"/>
+    <ucfd:DFIRoutingNumber value="011000138"/>
+    <ucfd:DFIAccountType value="DA"/>
+    <ucfd:DFIAccountNumber value="123456"/>
+    <ucfd:Identifier value="1574893748"/>
+    <ucfd:SupplementalIdentifier value="574893748"/>
+  </ecrhcf:PayerAccountInfo>
+  <ecrhcf:PayeeAccountInfo errorRef="11 12">
+    <ucfd:DFI value="01"/>
+    <ucfd:DFIRoutingNumber value="000001009"/>
+    <ucfd:DFIAccountType value="DA"/>
+    <ucfd:DFIAccountNumber value="98765"/>
+  </ecrhcf:PayeeAccountInfo>
+  <ecrhcf:PaymentIssueDate value="2010-11-07"/>
+  <ecrhcf:CheckorEFTNumber value="1574893748"/>
+  <ecrhcf:ProductionDate value="2010-11-06"/>
+  <ecrhcf:ClaimGroup errorRef="13 14">
+    <hcfd:ClaimPaymentInfo>
+      <hcfd:SubmittedClaimID value="11724000001-000"/>
+      <hcfd:InternalClaimID value="11724000001-001"/>
+      <hcfd:ClaimProcessorID value="PM"/>
+      <hcfd:ClaimProcessorClaimID value="1999999444445"/>
+      <hcfd:PayerClaimControlNumber value="1999999444445"/>
+      <hcfd:IsCorrection value="false"/>
+      <hcfd:IsReversal value="false"/>
+      <hcfd:ProviderClaimNumber value="9331487076">
+        <ucf:Version name="original" value="9331487076"/>
+      </hcfd:ProviderClaimNumber>
+      <hcfd:ClaimReceivedDate value="2010-11-01"/>
+      <hcfd:SubmittedTotalClaimCharge value="2000">
+        <ucf:Version name="original" value="2000"/>
+      </hcfd:SubmittedTotalClaimCharge>
+      <hcfd:TotalClaimPaidAmount value="2000"/>
+      <hcfd:ClaimStatusCode value="1"/>
+      <hcfd:FacilityType value="14">
+        <ucf:Version name="original" value="14"/>
+      </hcfd:FacilityType>
+      <hcfd:FilingIndicatorCode value="12">
+        <ucf:Version name="original" value="12"/>
+      </hcfd:FilingIndicatorCode>
+      <hcfd:ClaimFrequencyCode value="3">
+        <ucf:Version name="original" value="3"/>
+      </hcfd:ClaimFrequencyCode>
+      <hcfd:PatientInfo>
+        <ucfd:FirstName value="Ralph">
+          <ucf:Version name="original" value="Ralph"/>
+        </ucfd:FirstName>
+        <ucfd:LastName value="Toddman">
+          <ucf:Version name="original" value="Toddman"/>
+        </ucfd:LastName>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="MI">
+            <ucf:Version name="original" value="MI"/>
+          </ucf:Qualifier>
+          <ucf:Identifier value="169649790">
+            <ucf:Version name="original" value="169649790"/>
+          </ucf:Identifier>
+        </ucfd:PrimaryIdentifier>
+        <hcfd:AlternateMemberIdentifierInfo>
+          <hcfd:Identifier value="4393209">
+            <ucf:Version name="submitted" value="4393209"/>
+          </hcfd:Identifier>
+          <hcfd:Suffix value="00">
+            <ucf:Version name="submitted" value="01"/>
+            <ucf:Version name="internal" value="00"/>
+          </hcfd:Suffix>
+        </hcfd:AlternateMemberIdentifierInfo>
+      </hcfd:PatientInfo>
+      <hcfd:SubscriberInfo>
+        <ucfd:FirstName value="Allen">
+          <ucf:Version name="original" value="Allen"/>
+        </ucfd:FirstName>
+        <ucfd:LastName value="Jones">
+          <ucf:Version name="original" value="Jones"/>
+        </ucfd:LastName>
+        <ucfd:PrimaryIdentifier>
+          <ucf:Qualifier value="MI">
+            <ucf:Version name="original" value="MI"/>
+          </ucf:Qualifier>
+          <ucf:Identifier value="455479836">
+            <ucf:Version name="original" value="455479836"/>
+          </ucf:Identifier>
+        </ucfd:PrimaryIdentifier>
+      </hcfd:SubscriberInfo>
+      <hcfd:ServiceDates>
+        <ucf:BeginDate value="2010-10-20">
+          <ucf:Version name="original" value="2010-10-20"/>
+        </ucf:BeginDate>
+        <ucf:EndDate value="2010-10-27">
+          <ucf:Version name="original" value="2010-10-27"/>
+        </ucf:EndDate>
+      </hcfd:ServiceDates>
+      <hcfd:OtherClaimRelatedInfo>
+        <ucf:Qualifier value="EA">
+          <ucf:Version name="original" value="EA"/>
+        </ucf:Qualifier>
+        <ucf:Value value="0854261498">
+          <ucf:Version name="original" value="0854261498"/>
+        </ucf:Value>
+      </hcfd:OtherClaimRelatedInfo>
+      <hcfd:ServiceLineProcessedInfo>
+        <hcfd:OriginalServiceInfo>
+          <hcfd:ServiceInfo>
+            <hcfd:Qualifier value="HC">
+              <ucf:Version name="original" value="HC"/>
+              <ucf:Version name="submitted" value="HC"/>
+            </hcfd:Qualifier>
+            <hcfd:Value value="33536">
+              <ucf:Version name="original" value="33536"/>
+              <ucf:Version name="submitted" value="33536"/>
+            </hcfd:Value>
+          </hcfd:ServiceInfo>
+        </hcfd:OriginalServiceInfo>
+        <hcfd:ProcessedServiceInfo>
+          <hcfd:ServiceInfo>
+            <hcfd:Qualifier value="HC"/>
+            <hcfd:Value value="98004">
+              <ucf:Version name="original" value="99251"/>
+              <ucf:Version name="received" value="98004"/>
+            </hcfd:Value>
+          </hcfd:ServiceInfo>
+          <hcfd:LineChargeAmount value="2000">
+            <ucf:Version name="original" value="2000"/>
+            <ucf:Version name="submitted" value="2000"/>
+          </hcfd:LineChargeAmount>
+          <hcfd:Quantity value="1">
+            <ucf:Version name="original" value="1"/>
+            <ucf:Version name="submitted" value="1"/>
+          </hcfd:Quantity>
+        </hcfd:ProcessedServiceInfo>
+        <hcfd:LinePaidAmount value="2000"/>
+        <hcfd:SubmittedServiceLine>
+          <hcfd:ServiceLineID value="1"/>
+          <hcfd:ComparisonResult value="UNIQUE"/>
+        </hcfd:SubmittedServiceLine>
+      </hcfd:ServiceLineProcessedInfo>
+    </hcfd:ClaimPaymentInfo>
+  </ecrhcf:ClaimGroup>
+</ecrhcf:ClaimRemittance>

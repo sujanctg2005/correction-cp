@@ -1,0 +1,33 @@
+[2011-03-22 12:42:13,522] [INFO] spring.BeanBuilder - [RuntimeConfiguration] Configuring data source for environment: DEVELOPMENT
+[2011-03-22 12:42:15,462] [WARN] config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/E:/project/Correction/target/war/WEB-INF/lib/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2011-03-22 12:42:16,640] [INFO] scaffolding.DefaultGrailsTemplateGenerator - Scaffolding template generator set to use resource loader org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@ddc581: startup date [Tue Mar 22 12:42:14 EET 2011]; parent: Root WebApplicationContext
+[2011-03-22 12:42:17,623] [INFO] context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+[2011-03-22 12:42:17,773] [INFO] [localhost].[/Correction] - Initializing Spring FrameworkServlet 'grails'
+[2011-03-22 12:42:17,823] [INFO] http11.Http11Protocol - Starting Coyote HTTP/1.1 on http-localhost%2F127.0.0.1-8080
+Server running. Browse to http://localhost:8080/Correction
+[2011-03-22 12:42:32,388] [INFO] correction.CorrectionController - [AUDIT] User:MFOWLER Frag:UCFWithErrors.xml Action:Retrieve an Exception for Correction.
+[2011-03-22 12:42:32,432] [INFO] correction.CorrectionController - View mode:EDIT
+[2011-03-22 12:42:32,528] [ERROR] errors.GrailsExceptionResolver - Exception occurred when processing request: [GET] /Correction/correction/renderui - parameters:
+xmlurl: file:///C:/india/
+callbackurl: http://localhost:8080/postback
+userinfo: MFOWLER
+viewmode: EDIT
+xmlid: UCFWithErrors.xml
+Stacktrace follows:
+java.lang.ClassNotFoundException: org.jibx.runtime.JiBXException
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:299)
+	at java.net.URLClassLoader$1.run(URLClassLoader.java:288)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:287)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:422)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:355)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:264)
+	at java.util.ServiceLoader$LazyIterator.next(ServiceLoader.java:362)
+	at java.util.ServiceLoader$1.next(ServiceLoader.java:438)
+	at com.edifecs.elm.ucf.UCFFactory.getInstance(UCFFactory.java:22)
+	at com.edifecs.correction.TestModel.getModel(TestModel.java:108)
+	at com.edifecs.correction.TestModel$getModel.call(Unknown Source)
+	at correction.CorrectionController$_closure3.doCall(CorrectionController.groovy:99)
+	at correction.CorrectionController$_closure3.doCall(CorrectionController.groovy)
+	at java.lang.Thread.run(Thread.java:729)

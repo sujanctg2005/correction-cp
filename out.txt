@@ -1,0 +1,400 @@
+[INFO] Scanning for projects...
+[WARNING] 
+[WARNING] Some problems were encountered while building the effective model for com.edifecs.correction:Correction:war:0.1
+[WARNING] 'build.plugins.plugin.version' for org.apache.maven.plugins:maven-compiler-plugin is missing. @ line 175, column 15
+[WARNING] 'dependencies.dependency.exclusions.exclusion.groupId' for net.sf.ehcache:ehcache-core:jar is missing. @ line 75, column 22
+[WARNING] 'dependencies.dependency.exclusions.exclusion.groupId' for net.sf.ehcache:ehcache-core:jar is missing. @ line 78, column 22
+[WARNING] 'dependencies.dependency.exclusions.exclusion.groupId' for net.sf.ehcache:ehcache-core:jar is missing. @ line 86, column 22
+[WARNING] 
+[WARNING] It is highly recommended to fix these problems because they threaten the stability of your build.
+[WARNING] 
+[WARNING] For this reason, future Maven versions might no longer support building such malformed projects.
+[WARNING] 
+[INFO]                                                                         
+[INFO] ------------------------------------------------------------------------
+[INFO] Building Correction 0.1
+[INFO] ------------------------------------------------------------------------
+[INFO] 
+[INFO] --- grails-maven-plugin:1.3.2:run-app (default-cli) @ Correction ---
+[INFO] Using Grails 1.3.6
+Running pre-compiled script
+Environment set to development
+:: resolving dependencies :: org.grails.internal#Correction;0.1
+	confs: [compile]
+:: resolution report :: resolve 687ms :: artifacts dl 0ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      compile     |   3   |   0   |   0   |   0   ||   0   |   0   |
+	---------------------------------------------------------------------
+
+:: problems summary ::
+:::: WARNINGS
+		module not found: org.hibernate#hibernate-core;3.3.1.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-core-3.3.1.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-core/tags/RELEASE_3_3_1_GA/grails-hibernate-core-3.3.1.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-core/tags/RELEASE_3_3_1_GA/grails-hibernate-core-3.3.1.GA.jar
+
+		module not found: org.hibernate#hibernate-commons-annotations;3.1.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-commons-annotations/tags/RELEASE_3_1_0_GA/grails-hibernate-commons-annotations-3.1.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-commons-annotations/tags/RELEASE_3_1_0_GA/grails-hibernate-commons-annotations-3.1.0.GA.jar
+
+		module not found: org.hibernate#hibernate-annotations;3.4.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-annotations-3.4.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-annotations/tags/RELEASE_3_4_0_GA/grails-hibernate-annotations-3.4.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-annotations/tags/RELEASE_3_4_0_GA/grails-hibernate-annotations-3.4.0.GA.jar
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		::          UNRESOLVED DEPENDENCIES         ::
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		:: org.hibernate#hibernate-core;3.3.1.GA: not found
+
+		:: org.hibernate#hibernate-commons-annotations;3.1.0.GA: not found
+
+		:: org.hibernate#hibernate-annotations;3.4.0.GA: not found
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+:: resolving dependencies :: org.grails.internal#Correction;0.1
+	confs: [runtime]
+:: resolution report :: resolve 1114ms :: artifacts dl 1ms
+	---------------------------------------------------------------------
+	|                  |            modules            ||   artifacts   |
+	|       conf       | number| search|dwnlded|evicted|| number|dwnlded|
+	---------------------------------------------------------------------
+	|      runtime     |   8   |   0   |   0   |   0   ||   0   |   0   |
+	---------------------------------------------------------------------
+
+:: problems summary ::
+:::: WARNINGS
+		module not found: org.hibernate#hibernate-core;3.3.1.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-core-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-core-3.3.1.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-core/tags/RELEASE_3_3_1_GA/grails-hibernate-core-3.3.1.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-core;3.3.1.GA!hibernate-core.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-core/tags/RELEASE_3_3_1_GA/grails-hibernate-core-3.3.1.GA.jar
+
+		module not found: org.hibernate#hibernate-commons-annotations;3.1.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-commons-annotations-3.1.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-commons-annotations/tags/RELEASE_3_1_0_GA/grails-hibernate-commons-annotations-3.1.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-commons-annotations;3.1.0.GA!hibernate-commons-annotations.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-commons-annotations/tags/RELEASE_3_1_0_GA/grails-hibernate-commons-annotations-3.1.0.GA.jar
+
+		module not found: org.hibernate#hibernate-annotations;3.4.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-annotations-3.4.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-annotations-3.4.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-annotations/tags/RELEASE_3_4_0_GA/grails-hibernate-annotations-3.4.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-annotations;3.4.0.GA!hibernate-annotations.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-annotations/tags/RELEASE_3_4_0_GA/grails-hibernate-annotations-3.4.0.GA.jar
+
+		module not found: org.hibernate#hibernate-validator;3.1.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-validator;3.1.0.GA!hibernate-validator.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-validator-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-validator-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-validator-3.1.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-validator-3.1.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-validator;3.1.0.GA!hibernate-validator.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-validator/tags/RELEASE_3_1_0_GA/grails-hibernate-validator-3.1.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-validator;3.1.0.GA!hibernate-validator.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-validator/tags/RELEASE_3_1_0_GA/grails-hibernate-validator-3.1.0.GA.jar
+
+		module not found: javassist#javassist;3.11.0.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact javassist#javassist;3.11.0.GA!javassist.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/javassist-3.11.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/javassist-3.11.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/javassist-3.11.0.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/javassist-3.11.0.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact javassist#javassist;3.11.0.GA!javassist.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-javassist/tags/RELEASE_3_11_0_GA/grails-javassist-3.11.0.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact javassist#javassist;3.11.0.GA!javassist.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-javassist/tags/RELEASE_3_11_0_GA/grails-javassist-3.11.0.GA.jar
+
+		module not found: antlr#antlr;2.7.6
+
+	==== grailsPlugins: tried
+
+	  -- artifact antlr#antlr;2.7.6!antlr.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/antlr-2.7.6.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/antlr-2.7.6.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/antlr-2.7.6.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/antlr-2.7.6.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact antlr#antlr;2.7.6!antlr.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-antlr/tags/RELEASE_2_7_6/grails-antlr-2.7.6.jar
+
+	==== grailsCore: tried
+
+	  -- artifact antlr#antlr;2.7.6!antlr.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-antlr/tags/RELEASE_2_7_6/grails-antlr-2.7.6.jar
+
+		module not found: dom4j#dom4j;1.6.1
+
+	==== grailsPlugins: tried
+
+	  -- artifact dom4j#dom4j;1.6.1!dom4j.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/dom4j-1.6.1.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/dom4j-1.6.1.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/dom4j-1.6.1.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/dom4j-1.6.1.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact dom4j#dom4j;1.6.1!dom4j.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-dom4j/tags/RELEASE_1_6_1/grails-dom4j-1.6.1.jar
+
+	==== grailsCore: tried
+
+	  -- artifact dom4j#dom4j;1.6.1!dom4j.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-dom4j/tags/RELEASE_1_6_1/grails-dom4j-1.6.1.jar
+
+		module not found: org.hibernate#hibernate-ehcache;3.3.1.GA
+
+	==== grailsPlugins: tried
+
+	  -- artifact org.hibernate#hibernate-ehcache;3.3.1.GA!hibernate-ehcache.jar:
+
+	  C:\Users\Administrator\eddifecsA\Correction/lib/hibernate-ehcache-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\.svn/lib/hibernate-ehcache-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\hibernate-1.3.6/lib/hibernate-ehcache-3.3.1.GA.jar
+
+	  C:\Users\Administrator\eddifecsA\Correction\plugins\tomcat-1.3.6/lib/hibernate-ehcache-3.3.1.GA.jar
+
+	==== grailsCentral: tried
+
+	  -- artifact org.hibernate#hibernate-ehcache;3.3.1.GA!hibernate-ehcache.jar:
+
+	  http://svn.codehaus.org/grails-plugins/grails-hibernate-ehcache/tags/RELEASE_3_3_1_GA/grails-hibernate-ehcache-3.3.1.GA.jar
+
+	==== grailsCore: tried
+
+	  -- artifact org.hibernate#hibernate-ehcache;3.3.1.GA!hibernate-ehcache.jar:
+
+	  http://svn.codehaus.org/grails/trunk/grails-plugins/grails-hibernate-ehcache/tags/RELEASE_3_3_1_GA/grails-hibernate-ehcache-3.3.1.GA.jar
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		::          UNRESOLVED DEPENDENCIES         ::
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+		:: org.hibernate#hibernate-core;3.3.1.GA: not found
+
+		:: org.hibernate#hibernate-commons-annotations;3.1.0.GA: not found
+
+		:: org.hibernate#hibernate-annotations;3.4.0.GA: not found
+
+		:: org.hibernate#hibernate-validator;3.1.0.GA: not found
+
+		:: javassist#javassist;3.11.0.GA: not found
+
+		:: antlr#antlr;2.7.6: not found
+
+		:: dom4j#dom4j;1.6.1: not found
+
+		:: org.hibernate#hibernate-ehcache;3.3.1.GA: not found
+
+		::::::::::::::::::::::::::::::::::::::::::::::
+
+
+
+:: USE VERBOSE OR DEBUG MESSAGE LEVEL FOR MORE DETAILS
+  [groovyc] Compiling 1 source file to C:\Users\Administrator\eddifecsA\Correction\target\classes
+   [delete] Deleting directory C:\Users\Administrator\eddifecsA\Correction\target\tomcat
+Running Grails application..
+[2011-03-10 20:10:52,657] [INFO] http11.Http11Protocol - Initializing Coyote HTTP/1.1 on http-8080
+[2011-03-10 20:10:52,658] [INFO] core.StandardService - Starting service Tomcat
+[2011-03-10 20:10:52,660] [INFO] core.StandardEngine - Starting Servlet Engine: Apache Tomcat/6.0-snapshot
+[2011-03-10 20:10:53,138] [INFO] startup.ContextConfig - No default web.xml
+[2011-03-10 20:10:53,435] [INFO] digester.Digester - TLD skipped. URI: http://www.springframework.org/tags is already defined
+[2011-03-10 20:10:53,449] [INFO] digester.Digester - TLD skipped. URI: http://java.sun.com/jsp/jstl/core is already defined
+[2011-03-10 20:10:53,461] [INFO] digester.Digester - TLD skipped. URI: http://java.sun.com/jsp/jstl/fmt is already defined
+[2011-03-10 20:10:53,538] [INFO] digester.Digester - TLD skipped. URI: http://www.springframework.org/tags/form is already defined
+[2011-03-10 20:10:53,542] [INFO] digester.Digester - TLD skipped. URI: http://www.springframework.org/tags is already defined
+[2011-03-10 20:10:53,555] [INFO] digester.Digester - TLD skipped. URI: http://www.opensymphony.com/sitemesh/decorator is already defined
+[2011-03-10 20:10:53,556] [INFO] digester.Digester - TLD skipped. URI: http://www.opensymphony.com/sitemesh/page is already defined
+[2011-03-10 20:10:53,586] [INFO] [localhost].[/Correction] - Initializing Spring root WebApplicationContext
+[2011-03-10 20:10:55,789] [INFO] spring.BeanBuilder - [RuntimeConfiguration] Configuring data source for environment: DEVELOPMENT
+[2011-03-10 20:10:58,298] [WARN] config.ConfigurationFactory - No configuration found. Configuring ehcache from ehcache-failsafe.xml  found in the classpath: jar:file:/C:/Users/Administrator/.m2/repository/net/sf/ehcache/ehcache/1.2.3/ehcache-1.2.3.jar!/ehcache-failsafe.xml
+[2011-03-10 20:10:59,715] [INFO] scaffolding.DefaultGrailsTemplateGenerator - Scaffolding template generator set to use resource loader org.codehaus.groovy.grails.commons.spring.GrailsWebApplicationContext@13bc54: startup date [Thu Mar 10 20:10:56 EST 2011]; parent: Root WebApplicationContext
+[2011-03-10 20:11:02,737] [INFO] context.GrailsConfigUtils - [GrailsContextLoader] Grails application loaded.
+[2011-03-10 20:11:02,915] [INFO] [localhost].[/Correction] - Initializing Spring FrameworkServlet 'grails'
+[2011-03-10 20:11:03,187] [INFO] http11.Http11Protocol - Starting Coyote HTTP/1.1 on http-8080
+Server running. Browse to http://localhost:8080/Correction
+Application context shutting down...
+Application context shutdown.
+Terminate batch job (Y/N)? 
