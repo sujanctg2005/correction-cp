@@ -1,0 +1,225 @@
+@CHARSET "ISO-8859-1";
+body {
+	BACKGROUND-COLOR: #FCFCFC;
+}
+
+DIV.pageDiv {
+	BACKGROUND-COLOR: #FCFCFC;
+	WIDTH: 700px;
+	margin: 1px 1px 1px 1px
+}
+
+DIV.tabHolder {
+	display: table-row;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+DIV.contentTab {
+	width: 125px;
+	BACKGROUND-COLOR: #E0DEDF;
+	FONT-WEIGHT: bold;
+	float: left;
+	padding-right: 1px;
+	margin: 0px 1px 0px 0px;
+	TEXT-ALIGN: center;
+}
+
+DIV.errorTab {
+	width: 125px;
+	BACKGROUND-COLOR: #E0DEDF;
+	FONT-WEIGHT: bold;
+	float: left;
+	padding-right: 1px;
+	margin: 0px 1px 0px 0px;
+	TEXT-ALIGN: center;
+}
+
+DIV.errorList {
+	width: 900px;
+	BACKGROUND-COLOR: white;
+}
+
+DIV.content {
+	float: left;
+	width: 700px;
+	BACKGROUND-COLOR: #FCFCFC;
+}
+
+DIV.header {
+	BORDER-RIGHT: #87ceeb 0px solid;
+	PADDING-RIGHT: 2px;
+	BORDER-TOP: #87ceeb 0px solid;
+	PADDING-LEFT: 1px;
+	FONT-WEIGHT: bold;
+	FONT-SIZE: normal;
+	PADDING-BOTTOM: 2px;
+	MARGIN: 0px 0px 2px;
+	TEXT-TRANSFORM: none;
+	BORDER-LEFT: #87ceeb 0px solid;
+	COLOR: black;
+	PADDING-TOP: 0px;
+	BORDER-BOTTOM: #87ceeb 0px solid;
+	FONT-STYLE: normal;
+	FONT-FAMILY: Verdana, Arial;
+	BACKGROUND-COLOR: #E0DEDF;
+	TEXT-ALIGN: left;
+	FONT-VARIANT: normal;
+	TEXT-DECORATION: none
+}
+
+DIV.child {
+	BORDER-LEFT: #E0DEDF 1px solid; MARGIN; 1 px 0px 5px;
+	BACKGROUND-COLOR: white;
+}
+
+DIV.pageHeader {
+	BACKGROUND-COLOR: #E0DEDF;
+	padding: 0px;
+	HEIGHT: 100px;
+	margin: 0px 0px 0px 0px
+}
+
+table {
+	padding: 0px;
+	border-collapse: collapse;
+	BACKGROUND-COLOR: #FCFCFC;
+	height: 50px;
+}
+
+.clearFloat {
+	clear: both;
+	display: block;
+}
+
+th.nameColHeader {
+	TEXT-ALIGN: left;
+	width: 300px;
+}
+
+th.currentColHeader {
+	width: 150px;
+}
+
+th.originalColHeader {
+	width: 145px;
+}
+
+td.nodeNameCol {
+	FONT-WEIGHT: bold;
+}
+
+input.formInputField {
+	width: 150px;
+}
+
+input.formInputFielderror {
+	width: 150px;
+	BACKGROUND-COLOR: red;
+}
+
+tr.nodetr {
+	BACKGROUND-COLOR: #E0DEDF;
+}
+
+tr.nodetrerror {
+	BACKGROUND-COLOR: red;
+}
+
+table.errorTable {
+	WIDTH: 700px;
+	BORDER: 0px;
+}
+
+tr.alt td {
+	BACKGROUND-COLOR: #E0DEDF;
+}
+
+tr.errorTable {
+	BACKGROUND-COLOR: #E0DEDF;
+}
+
+th.errorTable {
+	TEXT-ALIGN: left;
+}
+
+td.errorTable {
+	BORDER: 0px;
+	VERTICAL-ALIGN: top;
+}
+
+.formInputDisabled {
+	BORDER: 0px;
+	COLOR: black;
+	BACKGROUND-COLOR: #FCFCFC;
+}
+	
+.addNodeSelect 
+{
+	WIDTH: 149px;
+}	
+	
+.divDeleted 
+{
+	COLOR: gray;
+}	
+	
+.nodeError
+{
+	COLOR: red;
+}		
+		
+.nodecolor { BACKGROUND-COLOR: #E0DEDF; FLOAT: left;}
+.propertycolor { BACKGROUND-COLOR: #FCFCFC; }
+	
+DIV.contentHeader
+{
+}
+
+DIV.contentheadername {  FONT-WEIGHT: bold; WIDTH: 273px; TEXT-ALIGN: left; FLOAT: left; }
+DIV.contentheadercurrent { FONT-WEIGHT: bold; WIDTH: 200px; TEXT-ALIGN: center;  FLOAT: left; }
+DIV.contentheaderoriginal { FONT-WEIGHT: bold; WIDTH: 150px; TEXT-ALIGN: center;  FLOAT: left; }
+
+
+DIV.modelnode
+{
+	FLOAT: left;
+	BACKGROUND-COLOR: #FCFCFC;
+	WIDTH: 700px;
+}
+
+
+DIV.modelnodeheader
+{
+	FONT-WEIGHT: bold;
+	COLOR: black;
+	BACKGROUND-COLOR: #FCFCFC;
+}
+
+DIV.modelnodeheademinusplus { FLOAT: left; WIDTH: 5px; FONT-WEIGHT: bold; }
+DIV.modelnodeheaderplusimage {}
+DIV.modelnodeheaderminusimage {}
+
+DIV.modelnodeheadername { WIDTH: 21px; FLOAT: left; }
+DIV.modelnodeheadernodelist {  WIDTH: 155px; FLOAT: left; }
+DIV.modelnodeheaderdelete { WIDTH: 21px; FLOAT: left; }
+DIV.modelnodeheaderadd { WIDTH: FLOAT: left;  PADDING-LEFT: 1px;}
+
+DIV.modelpropertydelete { WIDTH: 21px; FLOAT: left; }
+DIV.modelpropertyadd { WIDTH: FLOAT: left;  PADDING-LEFT: 1px;}
+
+
+DIV.propertyrow
+{	
+	FLOAT: left;
+	FONT-WEIGHT : normal;
+}
+
+DIV.propertyrowname { FLOAT: left; }
+DIV.propertyrowdelete { FlOAT: left; WIDTH: 21px; }
+DIV.propertyrowcurrent { WIDTH:155px; FLOAT: left; }
+DIV.propertyrowadd { FlOAT: left; WIDTH: 21px; PADDING-LEFT: 1px; }
+DIV.propertyroworiginal { WIDTH: 100px; FLOAT: left; PADDING-LEFT 2px; }
+
+DIV.showAll { FLOAT: left; }
+DIV.hideAll { FLOAT: left; }
